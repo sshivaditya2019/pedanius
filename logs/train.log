@@ -1,0 +1,145 @@
+2022-07-07 23:54:59,326:INFO: Loading the Dataset
+2022-07-07 23:55:25,129:INFO: Loading the Dataset
+2022-07-07 23:55:43,475:INFO: Loading the Dataset
+2022-07-07 23:55:43,490:INFO: - done.
+2022-07-07 23:55:44,458:INFO: Experiment - model version: cnn
+2022-07-07 23:55:44,459:INFO: Starting training for 30 epoch(s)
+2022-07-07 23:55:44,459:INFO: First, loading the teacher model and computing its outputs...
+2022-07-07 23:56:01,169:INFO: Loading the Dataset
+2022-07-07 23:56:01,183:INFO: - done.
+2022-07-07 23:56:02,138:INFO: Experiment - model version: cnn
+2022-07-07 23:56:02,138:INFO: Starting training for 30 epoch(s)
+2022-07-07 23:56:02,138:INFO: First, loading the teacher model and computing its outputs...
+2022-07-07 23:56:02,138:INFO: Epoch 1/30
+2022-07-07 23:58:05,073:INFO: Loading the Dataset
+2022-07-07 23:58:05,087:INFO: - done.
+2022-07-07 23:58:06,042:INFO: Experiment - model version: cnn
+2022-07-07 23:58:06,042:INFO: Starting training for 30 epoch(s)
+2022-07-07 23:58:06,043:INFO: First, loading the teacher model and computing its outputs...
+2022-07-07 23:58:06,043:INFO: Epoch 1/30
+2022-07-07 23:58:43,667:INFO: Loading the Dataset
+2022-07-07 23:58:43,681:INFO: - done.
+2022-07-07 23:58:44,686:INFO: Experiment - model version: cnn
+2022-07-07 23:58:44,686:INFO: Starting training for 30 epoch(s)
+2022-07-07 23:58:44,686:INFO: First, loading the teacher model and computing its outputs...
+2022-07-07 23:58:44,686:INFO: Epoch 1/30
+2022-07-08 00:02:00,428:INFO: Loading the Dataset
+2022-07-08 00:02:00,443:INFO: - done.
+2022-07-08 00:02:01,420:INFO: Experiment - model version: cnn
+2022-07-08 00:02:01,420:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:02:01,420:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:02:01,420:INFO: Epoch 1/30
+2022-07-08 00:03:00,756:INFO: Loading the Dataset
+2022-07-08 00:03:00,771:INFO: - done.
+2022-07-08 00:03:01,735:INFO: Experiment - model version: cnn
+2022-07-08 00:03:01,736:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:03:01,736:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:03:01,736:INFO: Epoch 1/30
+2022-07-08 00:07:03,015:INFO: Loading the Dataset
+2022-07-08 00:07:03,030:INFO: - done.
+2022-07-08 00:07:03,998:INFO: Experiment - model version: cnn
+2022-07-08 00:07:03,998:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:07:03,998:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:07:03,998:INFO: Epoch 1/30
+2022-07-08 00:07:18,569:INFO: Loading the Dataset
+2022-07-08 00:07:18,583:INFO: - done.
+2022-07-08 00:07:19,551:INFO: Experiment - model version: cnn
+2022-07-08 00:07:19,551:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:07:19,551:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:07:19,552:INFO: Epoch 1/30
+2022-07-08 00:08:18,038:INFO: Loading the Dataset
+2022-07-08 00:08:18,052:INFO: - done.
+2022-07-08 00:08:19,094:INFO: Experiment - model version: cnn
+2022-07-08 00:08:19,094:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:08:19,094:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:08:19,094:INFO: Epoch 1/30
+2022-07-08 00:09:33,569:INFO: Loading the Dataset
+2022-07-08 00:09:33,586:INFO: - done.
+2022-07-08 00:09:34,577:INFO: Experiment - model version: cnn
+2022-07-08 00:09:34,578:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:09:34,578:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:09:34,578:INFO: Epoch 1/30
+2022-07-08 00:10:03,051:INFO: Loading the Dataset
+2022-07-08 00:10:03,065:INFO: - done.
+2022-07-08 00:10:04,049:INFO: Experiment - model version: cnn
+2022-07-08 00:10:04,050:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:10:04,050:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:10:04,050:INFO: Epoch 1/30
+2022-07-08 00:10:35,812:INFO: Loading the Dataset
+2022-07-08 00:10:35,827:INFO: - done.
+2022-07-08 00:10:36,801:INFO: Experiment - model version: cnn
+2022-07-08 00:10:36,801:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:10:36,801:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:10:36,802:INFO: Epoch 1/30
+2022-07-08 00:14:58,040:INFO: Loading the Dataset
+2022-07-08 00:14:58,055:INFO: - done.
+2022-07-08 00:14:59,042:INFO: Experiment - model version: cnn
+2022-07-08 00:14:59,042:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:14:59,043:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:14:59,043:INFO: Epoch 1/30
+2022-07-08 00:15:24,026:INFO: Loading the Dataset
+2022-07-08 00:15:24,041:INFO: - done.
+2022-07-08 00:15:25,068:INFO: Experiment - model version: cnn
+2022-07-08 00:15:25,068:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:15:25,068:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:15:25,068:INFO: Epoch 1/30
+2022-07-08 00:15:47,919:INFO: Loading the Dataset
+2022-07-08 00:15:47,933:INFO: - done.
+2022-07-08 00:15:48,897:INFO: Experiment - model version: cnn
+2022-07-08 00:15:48,898:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:15:48,898:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:15:48,898:INFO: Epoch 1/30
+2022-07-08 00:16:05,589:INFO: Loading the Dataset
+2022-07-08 00:16:05,604:INFO: - done.
+2022-07-08 00:16:06,603:INFO: Experiment - model version: cnn
+2022-07-08 00:16:06,603:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:16:06,603:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:16:06,603:INFO: Epoch 1/30
+2022-07-08 00:16:46,918:INFO: Loading the Dataset
+2022-07-08 00:16:46,932:INFO: - done.
+2022-07-08 00:16:47,895:INFO: Experiment - model version: cnn
+2022-07-08 00:16:47,896:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:16:47,896:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:16:47,896:INFO: Epoch 1/30
+2022-07-08 00:17:11,017:INFO: Loading the Dataset
+2022-07-08 00:17:11,032:INFO: - done.
+2022-07-08 00:17:12,011:INFO: Experiment - model version: cnn
+2022-07-08 00:17:12,011:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:17:12,012:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:17:12,012:INFO: Epoch 1/30
+2022-07-08 00:17:36,887:INFO: Loading the Dataset
+2022-07-08 00:17:36,901:INFO: - done.
+2022-07-08 00:17:37,875:INFO: Experiment - model version: cnn
+2022-07-08 00:17:37,875:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:17:37,875:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:17:37,875:INFO: Epoch 1/30
+2022-07-08 00:20:11,731:INFO: Loading the Dataset
+2022-07-08 00:20:11,745:INFO: - done.
+2022-07-08 00:20:12,727:INFO: Experiment - model version: cnn
+2022-07-08 00:20:12,727:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:20:12,727:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:20:12,728:INFO: Epoch 1/30
+2022-07-08 00:20:33,545:INFO: Loading the Dataset
+2022-07-08 00:20:33,560:INFO: - done.
+2022-07-08 00:20:34,544:INFO: Experiment - model version: cnn
+2022-07-08 00:20:34,544:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:20:34,544:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:20:34,545:INFO: Epoch 1/30
+2022-07-08 00:20:58,777:INFO: Loading the Dataset
+2022-07-08 00:20:58,791:INFO: - done.
+2022-07-08 00:20:59,761:INFO: Experiment - model version: cnn
+2022-07-08 00:20:59,761:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:20:59,761:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:20:59,762:INFO: Epoch 1/30
+2022-07-08 00:21:13,999:INFO: Loading the Dataset
+2022-07-08 00:21:14,014:INFO: - done.
+2022-07-08 00:21:14,998:INFO: Experiment - model version: cnn
+2022-07-08 00:21:14,998:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:21:14,998:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:21:14,999:INFO: Epoch 1/30
+2022-07-08 00:21:44,087:INFO: Loading the Dataset
+2022-07-08 00:21:44,101:INFO: - done.
+2022-07-08 00:21:45,067:INFO: Experiment - model version: cnn
+2022-07-08 00:21:45,067:INFO: Starting training for 30 epoch(s)
+2022-07-08 00:21:45,067:INFO: First, loading the teacher model and computing its outputs...
+2022-07-08 00:21:45,068:INFO: Epoch 1/30
