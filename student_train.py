@@ -8,7 +8,7 @@ import torch.nn.functional as F
 from torchvision import models
 import torch.optim as optim
 from model import data_loader, densenet, net, resnext,resnet,wrn,preresnet
-
+import timm
 import utils
 from torch.optim.lr_scheduler import StepLR
 from tqdm import tqdm
@@ -70,6 +70,23 @@ def train_kd(model, teacher_model, optimizer, loss_fn_kd, dataloader, metrics, p
     metrics_string = " ; ".join("{}: {:05.3f}".format(k, v) for k, v in metrics_mean.items())
     logging.info("- Train metrics: " + metrics_string)
 
+class CassvaImgClassifier(nn.Module):
+    def __init__(self, model_arch, n_class, pretrained=False):
+        super().__init__()
+        self.model = timm.create_model(model_arch, pretrained=pretrained)
+        n_features = self.model.classifier.in_features
+        self.model.classifier = nn.Linear(n_features, n_class)
+        '''
+        self.model.classifier = nn.Sequential(
+            nn.Dropout(0.3),
+            #nn.Linear(n_features, hidden_size,bias=True), nn.ELU(),
+            nn.Linear(n_features, n_class, bias=True)
+        )
+        '''
+    def forward(self, x):
+        x = self.model(x)
+        return x
+
 
 def train_evaluate_kd(model, teacher_model, train_dataloader, val_dataloader, optimizer,
                         loss_fn_kd, metrics, params, model_dir, restore_file = None):
@@ -129,12 +146,12 @@ if __name__ == '__main__':
     utils.set_logger(os.path.join('logs/','train.log'))
     logging.info("Loading the Dataset")
 
-    if params.subset_percent < 1.0:
-        train_dl = data_loader.fetch_subset_dataloader('train', params)
-    else:
-        train_dl = data_loader.fetch_dataloader('train', params)
+    trains, _ = data_loader.dataset_entire(params)
+    device = torch.device(params.device)
+    train_loader = trains['train_img']
+    val_loader = trains['test_img']
     
-    dev_dl = data_loader.fetch_dataloader('dev', params)
+    ##dev_dl = data_loader.fetch_dataloader('dev', params)
 
     logging.info("- done.")
     
@@ -145,12 +162,11 @@ if __name__ == '__main__':
     loss_fn_kd = net.loss_fn_kd
     metrics = net.metrics
 
-    teacher_model = models.resnext50_32x4d(pretrained= True)
-    num_ftrs = teacher_model.fc.in_features
-    teacher_model.fc= nn.Linear(num_ftrs,5)
-    teacher_model.load_state_dict(torch.load("/home/sshivaditya/Projects/pedanius/saves/FirstModel"))
+    teacher_model = CassvaImgClassifier("tf_efficientnet_b4_ns",5,pretrained=True)
+    teacher_model.load_state_dict(torch.load("/home/sshivaditya/Projects/pedanius/saves/CrossEntropy/tf_efficientnet_b4_ns_fold_0_9"))
+    teacher_model.eval()
     logging.info("Experiment - model version: {}".format(params.model_version))
     logging.info("Starting training for {} epoch(s)".format(params.num_epochs))
     logging.info("First, loading the teacher model and computing its outputs...")
-    train_evaluate_kd(model, teacher_model, train_dl, dev_dl, optimizer, loss_fn_kd,
+    train_evaluate_kd(model, teacher_model, train_loader, val_loader, optimizer, loss_fn_kd,
                             metrics, params, "/home/sshivaditya/Projects/pedanius/saves")

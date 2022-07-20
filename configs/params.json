@@ -15,5 +15,19 @@
     "dropout_rate":0.5,
     "num_channels":32,
     "save_summary_steps":100,
-    "num_workers":4
+    "num_workers":4,
+    "fold_num": 5,
+    "seed": 719,
+    "model_arch": "tf_efficientnet_b4_ns",
+    "img_size": 256,
+    "epochs": 10,
+    "train_bs": 16,
+    "valid_bs": 32,
+    "T_0": 10,
+    "lr": 1e-4,
+    "min_lr": 1e-6,
+    "weight_decay":1e-6,
+    "accum_iter": 2,
+    "verbose_step": 1,
+    "device": "cuda:0"
 }

@@ -8,13 +8,32 @@ import torchvision.transforms as transforms
 from PIL import Image
 from flask import Flask, jsonify, request
 import torch.nn as nn
+import timm
 
 app = Flask(__name__)
 imagenet_class_index = json.load(open('/home/sshivaditya/Projects/pedanius/data/label_num_to_disease_map.json'))
-model_ft = models.resnext50_32x4d(pretrained= True)
-num_ftrs = model_ft.fc.in_features
-model_ft.fc= nn.Linear(num_ftrs,5)
-model_ft.load_state_dict(torch.load("/home/sshivaditya/Projects/pedanius/saves/FirstModel"))
+
+class CassvaImgClassifier(nn.Module):
+    def __init__(self, model_arch, n_class, pretrained=False):
+        super().__init__()
+        self.model = timm.create_model(model_arch, pretrained=pretrained)
+        n_features = self.model.classifier.in_features
+        self.model.classifier = nn.Linear(n_features, n_class)
+        '''
+        self.model.classifier = nn.Sequential(
+            nn.Dropout(0.3),
+            #nn.Linear(n_features, hidden_size,bias=True), nn.ELU(),
+            nn.Linear(n_features, n_class, bias=True)
+        )
+        '''
+    def forward(self, x):
+        x = self.model(x)
+        return x
+
+
+
+model_ft = CassvaImgClassifier("tf_efficientnet_b4_ns",5,pretrained=True)
+model_ft.load_state_dict(torch.load("/home/sshivaditya/Projects/pedanius/saves/CrossEntropy/tf_efficientnet_b4_ns_fold_0_9"))
 model_ft.eval()
 
 

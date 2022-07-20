@@ -143,3 +143,489 @@
 2022-07-08 00:21:45,067:INFO: Starting training for 30 epoch(s)
 2022-07-08 00:21:45,067:INFO: First, loading the teacher model and computing its outputs...
 2022-07-08 00:21:45,068:INFO: Epoch 1/30
+2022-07-19 22:28:33,141:INFO: Loading the Dataset
+2022-07-19 22:31:14,048:INFO: Loading the Dataset
+2022-07-19 22:31:14,067:INFO: - done.
+2022-07-19 22:31:15,154:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:31:15,517:INFO: Experiment - model version: cnn
+2022-07-19 22:31:15,518:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:31:15,518:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:31:15,519:INFO: Epoch 1/30
+2022-07-19 22:33:58,913:INFO: Loading the Dataset
+2022-07-19 22:33:58,932:INFO: - done.
+2022-07-19 22:34:00,083:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:34:00,417:INFO: Experiment - model version: cnn
+2022-07-19 22:34:00,417:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:34:00,418:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:34:00,418:INFO: Epoch 1/30
+2022-07-19 22:37:20,377:INFO: Loading the Dataset
+2022-07-19 22:37:20,397:INFO: - done.
+2022-07-19 22:37:21,682:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:37:22,118:INFO: Experiment - model version: cnn
+2022-07-19 22:37:22,119:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:37:22,119:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:37:22,120:INFO: Epoch 1/30
+2022-07-19 22:39:17,687:INFO: Loading the Dataset
+2022-07-19 22:39:17,706:INFO: - done.
+2022-07-19 22:39:18,921:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:39:19,302:INFO: Experiment - model version: cnn
+2022-07-19 22:39:19,302:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:39:19,302:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:39:19,303:INFO: Epoch 1/30
+2022-07-19 22:43:47,763:INFO: Loading the Dataset
+2022-07-19 22:43:47,787:INFO: - done.
+2022-07-19 22:43:48,962:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:43:49,314:INFO: Experiment - model version: cnn
+2022-07-19 22:43:49,314:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:43:49,314:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:43:49,314:INFO: Epoch 1/30
+2022-07-19 22:44:49,981:INFO: Loading the Dataset
+2022-07-19 22:44:49,999:INFO: - done.
+2022-07-19 22:44:51,135:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:44:51,483:INFO: Experiment - model version: cnn
+2022-07-19 22:44:51,483:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:44:51,483:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:44:51,483:INFO: Epoch 1/30
+2022-07-19 22:45:37,515:INFO: Loading the Dataset
+2022-07-19 22:45:37,536:INFO: - done.
+2022-07-19 22:45:38,740:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:45:39,132:INFO: Experiment - model version: cnn
+2022-07-19 22:45:39,133:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:45:39,133:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:45:39,134:INFO: Epoch 1/30
+2022-07-19 22:47:55,554:INFO: Loading the Dataset
+2022-07-19 22:47:55,574:INFO: - done.
+2022-07-19 22:47:56,703:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:47:57,074:INFO: Experiment - model version: cnn
+2022-07-19 22:47:57,074:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:47:57,075:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:47:57,075:INFO: Epoch 1/30
+2022-07-19 22:48:46,846:INFO: Loading the Dataset
+2022-07-19 22:48:46,864:INFO: - done.
+2022-07-19 22:48:54,463:INFO: Loading the Dataset
+2022-07-19 22:48:54,481:INFO: - done.
+2022-07-19 22:48:55,605:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:48:55,957:INFO: Experiment - model version: cnn
+2022-07-19 22:48:55,957:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:48:55,957:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:48:55,958:INFO: Epoch 1/30
+2022-07-19 22:49:15,288:INFO: Loading the Dataset
+2022-07-19 22:49:15,307:INFO: - done.
+2022-07-19 22:49:16,528:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:49:16,894:INFO: Experiment - model version: cnn
+2022-07-19 22:49:16,895:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:49:16,895:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:49:16,896:INFO: Epoch 1/30
+2022-07-19 22:50:51,981:INFO: Loading the Dataset
+2022-07-19 22:50:52,000:INFO: - done.
+2022-07-19 22:50:53,109:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:50:53,464:INFO: Experiment - model version: cnn
+2022-07-19 22:50:53,465:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:50:53,465:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:50:53,465:INFO: Epoch 1/30
+2022-07-19 22:52:44,838:INFO: Loading the Dataset
+2022-07-19 22:52:44,855:INFO: - done.
+2022-07-19 22:52:45,924:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:52:46,265:INFO: Experiment - model version: cnn
+2022-07-19 22:52:46,265:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:52:46,266:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:52:46,266:INFO: Epoch 1/30
+2022-07-19 22:54:08,452:INFO: Loading the Dataset
+2022-07-19 22:54:08,471:INFO: - done.
+2022-07-19 22:54:09,549:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 22:54:09,895:INFO: Experiment - model version: cnn
+2022-07-19 22:54:09,895:INFO: Starting training for 30 epoch(s)
+2022-07-19 22:54:09,895:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 22:54:09,896:INFO: Epoch 1/30
+2022-07-19 23:26:14,329:INFO: Loading the Dataset
+2022-07-19 23:26:14,345:INFO: - done.
+2022-07-19 23:26:15,265:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:26:15,522:INFO: Experiment - model version: cnn
+2022-07-19 23:26:15,522:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:26:15,522:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:26:15,523:INFO: Epoch 1/30
+2022-07-19 23:28:01,511:INFO: Loading the Dataset
+2022-07-19 23:28:01,527:INFO: - done.
+2022-07-19 23:28:02,364:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:28:02,615:INFO: Experiment - model version: cnn
+2022-07-19 23:28:02,615:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:28:02,615:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:28:02,615:INFO: Epoch 1/30
+2022-07-19 23:28:23,930:INFO: Loading the Dataset
+2022-07-19 23:28:23,947:INFO: - done.
+2022-07-19 23:28:24,775:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:28:25,024:INFO: Experiment - model version: cnn
+2022-07-19 23:28:25,024:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:28:25,024:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:28:25,025:INFO: Epoch 1/30
+2022-07-19 23:29:21,216:INFO: Loading the Dataset
+2022-07-19 23:29:21,232:INFO: - done.
+2022-07-19 23:29:22,070:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:29:22,321:INFO: Experiment - model version: cnn
+2022-07-19 23:29:22,321:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:29:22,321:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:29:22,322:INFO: Epoch 1/30
+2022-07-19 23:29:44,300:INFO: Loading the Dataset
+2022-07-19 23:29:44,316:INFO: - done.
+2022-07-19 23:29:45,140:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:29:45,394:INFO: Experiment - model version: cnn
+2022-07-19 23:29:45,394:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:29:45,394:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:29:45,395:INFO: Epoch 1/30
+2022-07-19 23:30:26,781:INFO: Loading the Dataset
+2022-07-19 23:30:26,796:INFO: - done.
+2022-07-19 23:30:27,624:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:30:27,873:INFO: Experiment - model version: cnn
+2022-07-19 23:30:27,873:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:30:27,873:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:30:27,873:INFO: Epoch 1/30
+2022-07-19 23:30:54,883:INFO: Loading the Dataset
+2022-07-19 23:30:54,899:INFO: - done.
+2022-07-19 23:30:55,724:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:30:55,974:INFO: Experiment - model version: cnn
+2022-07-19 23:30:55,974:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:30:55,974:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:30:55,975:INFO: Epoch 1/30
+2022-07-19 23:31:22,738:INFO: Loading the Dataset
+2022-07-19 23:31:22,755:INFO: - done.
+2022-07-19 23:31:23,575:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:31:23,827:INFO: Experiment - model version: cnn
+2022-07-19 23:31:23,827:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:31:23,827:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:31:23,827:INFO: Epoch 1/30
+2022-07-19 23:31:36,053:INFO: Loading the Dataset
+2022-07-19 23:31:36,072:INFO: - done.
+2022-07-19 23:31:36,908:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:31:37,161:INFO: Experiment - model version: cnn
+2022-07-19 23:31:37,161:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:31:37,162:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:31:37,162:INFO: Epoch 1/30
+2022-07-19 23:32:31,964:INFO: Loading the Dataset
+2022-07-19 23:32:31,982:INFO: - done.
+2022-07-19 23:32:32,817:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:32:33,070:INFO: Experiment - model version: cnn
+2022-07-19 23:32:33,070:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:32:33,070:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:32:33,070:INFO: Epoch 1/30
+2022-07-19 23:32:52,000:INFO: Loading the Dataset
+2022-07-19 23:32:52,016:INFO: - done.
+2022-07-19 23:32:52,871:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:32:53,126:INFO: Experiment - model version: cnn
+2022-07-19 23:32:53,126:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:32:53,126:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:32:53,127:INFO: Epoch 1/30
+2022-07-19 23:34:05,792:INFO: Loading the Dataset
+2022-07-19 23:34:05,808:INFO: - done.
+2022-07-19 23:34:06,641:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:34:06,896:INFO: Experiment - model version: cnn
+2022-07-19 23:34:06,896:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:34:06,896:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:34:06,896:INFO: Epoch 1/30
+2022-07-19 23:34:32,417:INFO: Loading the Dataset
+2022-07-19 23:34:32,433:INFO: - done.
+2022-07-19 23:34:33,266:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:34:33,518:INFO: Experiment - model version: cnn
+2022-07-19 23:34:33,518:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:34:33,518:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:34:33,519:INFO: Epoch 1/30
+2022-07-19 23:36:20,887:INFO: Loading the Dataset
+2022-07-19 23:36:20,905:INFO: - done.
+2022-07-19 23:36:21,738:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:36:21,990:INFO: Experiment - model version: cnn
+2022-07-19 23:36:21,990:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:36:21,990:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:36:21,990:INFO: Epoch 1/30
+2022-07-19 23:36:47,036:INFO: Loading the Dataset
+2022-07-19 23:36:47,052:INFO: - done.
+2022-07-19 23:36:47,871:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:36:48,128:INFO: Experiment - model version: cnn
+2022-07-19 23:36:48,128:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:36:48,128:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:36:48,129:INFO: Epoch 1/30
+2022-07-19 23:37:09,244:INFO: Loading the Dataset
+2022-07-19 23:37:09,260:INFO: - done.
+2022-07-19 23:37:10,095:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:37:10,347:INFO: Experiment - model version: cnn
+2022-07-19 23:37:10,347:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:37:10,347:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:37:10,347:INFO: Epoch 1/30
+2022-07-19 23:37:28,181:INFO: Loading the Dataset
+2022-07-19 23:37:28,197:INFO: - done.
+2022-07-19 23:37:29,024:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:37:29,275:INFO: Experiment - model version: cnn
+2022-07-19 23:37:29,276:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:37:29,276:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:37:29,276:INFO: Epoch 1/30
+2022-07-19 23:37:39,751:INFO: Loading the Dataset
+2022-07-19 23:37:39,767:INFO: - done.
+2022-07-19 23:37:40,606:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:37:40,860:INFO: Experiment - model version: cnn
+2022-07-19 23:37:40,861:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:37:40,861:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:37:40,861:INFO: Epoch 1/30
+2022-07-19 23:49:05,615:INFO: Loading the Dataset
+2022-07-19 23:49:05,631:INFO: - done.
+2022-07-19 23:49:06,466:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:49:06,721:INFO: Experiment - model version: cnn
+2022-07-19 23:49:06,721:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:49:06,721:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:49:06,722:INFO: Epoch 1/30
+2022-07-19 23:50:25,951:INFO: Loading the Dataset
+2022-07-19 23:50:25,967:INFO: - done.
+2022-07-19 23:50:26,803:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:50:27,054:INFO: Experiment - model version: cnn
+2022-07-19 23:50:27,054:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:50:27,054:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:50:27,054:INFO: Epoch 1/30
+2022-07-19 23:50:47,070:INFO: Loading the Dataset
+2022-07-19 23:50:47,086:INFO: - done.
+2022-07-19 23:50:47,920:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:50:48,171:INFO: Experiment - model version: cnn
+2022-07-19 23:50:48,171:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:50:48,171:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:50:48,172:INFO: Epoch 1/30
+2022-07-19 23:51:58,891:INFO: Loading the Dataset
+2022-07-19 23:51:58,908:INFO: - done.
+2022-07-19 23:51:59,741:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:52:00,001:INFO: Experiment - model version: cnn
+2022-07-19 23:52:00,001:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:52:00,001:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:52:00,001:INFO: Epoch 1/30
+2022-07-19 23:52:47,854:INFO: Loading the Dataset
+2022-07-19 23:52:47,872:INFO: - done.
+2022-07-19 23:52:48,717:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:52:48,972:INFO: Experiment - model version: cnn
+2022-07-19 23:52:48,972:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:52:48,972:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:52:48,972:INFO: Epoch 1/30
+2022-07-19 23:53:17,975:INFO: Loading the Dataset
+2022-07-19 23:53:17,991:INFO: - done.
+2022-07-19 23:53:18,850:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:53:19,107:INFO: Experiment - model version: cnn
+2022-07-19 23:53:19,107:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:53:19,107:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:53:19,108:INFO: Epoch 1/30
+2022-07-19 23:53:37,075:INFO: Loading the Dataset
+2022-07-19 23:53:37,091:INFO: - done.
+2022-07-19 23:53:37,924:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:53:38,179:INFO: Experiment - model version: cnn
+2022-07-19 23:53:38,179:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:53:38,179:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:53:38,179:INFO: Epoch 1/30
+2022-07-19 23:53:49,472:INFO: Loading the Dataset
+2022-07-19 23:53:49,489:INFO: - done.
+2022-07-19 23:53:50,332:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:53:50,587:INFO: Experiment - model version: cnn
+2022-07-19 23:53:50,587:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:53:50,587:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:53:50,587:INFO: Epoch 1/30
+2022-07-19 23:54:14,090:INFO: Loading the Dataset
+2022-07-19 23:54:14,106:INFO: - done.
+2022-07-19 23:54:14,936:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:54:15,189:INFO: Experiment - model version: cnn
+2022-07-19 23:54:15,189:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:54:15,189:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:54:15,189:INFO: Epoch 1/30
+2022-07-19 23:54:28,699:INFO: Loading the Dataset
+2022-07-19 23:54:28,716:INFO: - done.
+2022-07-19 23:54:29,540:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:54:29,792:INFO: Experiment - model version: cnn
+2022-07-19 23:54:29,792:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:54:29,792:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:54:29,792:INFO: Epoch 1/30
+2022-07-19 23:55:03,742:INFO: Loading the Dataset
+2022-07-19 23:55:03,758:INFO: - done.
+2022-07-19 23:55:04,595:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:55:04,848:INFO: Experiment - model version: cnn
+2022-07-19 23:55:04,849:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:55:04,849:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:55:04,849:INFO: Epoch 1/30
+2022-07-19 23:55:37,764:INFO: Loading the Dataset
+2022-07-19 23:55:37,780:INFO: - done.
+2022-07-19 23:55:38,630:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:55:38,878:INFO: Experiment - model version: cnn
+2022-07-19 23:55:38,879:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:55:38,879:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:55:38,879:INFO: Epoch 1/30
+2022-07-19 23:55:50,284:INFO: Loading the Dataset
+2022-07-19 23:55:50,300:INFO: - done.
+2022-07-19 23:55:51,140:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:55:51,390:INFO: Experiment - model version: cnn
+2022-07-19 23:55:51,390:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:55:51,390:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:55:51,391:INFO: Epoch 1/30
+2022-07-19 23:56:03,533:INFO: Loading the Dataset
+2022-07-19 23:56:03,549:INFO: - done.
+2022-07-19 23:56:04,389:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:56:04,641:INFO: Experiment - model version: cnn
+2022-07-19 23:56:04,641:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:56:04,641:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:56:04,641:INFO: Epoch 1/30
+2022-07-19 23:56:20,282:INFO: Loading the Dataset
+2022-07-19 23:56:20,298:INFO: - done.
+2022-07-19 23:56:21,131:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:56:21,383:INFO: Experiment - model version: cnn
+2022-07-19 23:56:21,383:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:56:21,383:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:56:21,383:INFO: Epoch 1/30
+2022-07-19 23:56:38,306:INFO: Loading the Dataset
+2022-07-19 23:56:38,322:INFO: - done.
+2022-07-19 23:56:39,160:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:56:39,413:INFO: Experiment - model version: cnn
+2022-07-19 23:56:39,414:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:56:39,414:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:56:39,414:INFO: Epoch 1/30
+2022-07-19 23:56:57,575:INFO: Loading the Dataset
+2022-07-19 23:56:57,591:INFO: - done.
+2022-07-19 23:56:58,443:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:56:58,697:INFO: Experiment - model version: cnn
+2022-07-19 23:56:58,697:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:56:58,697:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:56:58,698:INFO: Epoch 1/30
+2022-07-19 23:57:19,375:INFO: Loading the Dataset
+2022-07-19 23:57:19,392:INFO: - done.
+2022-07-19 23:57:20,226:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:57:20,479:INFO: Experiment - model version: cnn
+2022-07-19 23:57:20,479:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:57:20,479:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:57:20,479:INFO: Epoch 1/30
+2022-07-19 23:57:36,307:INFO: Loading the Dataset
+2022-07-19 23:57:36,323:INFO: - done.
+2022-07-19 23:57:37,174:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:57:37,424:INFO: Experiment - model version: cnn
+2022-07-19 23:57:37,424:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:57:37,424:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:57:37,425:INFO: Epoch 1/30
+2022-07-19 23:57:49,342:INFO: Loading the Dataset
+2022-07-19 23:57:49,359:INFO: - done.
+2022-07-19 23:57:50,187:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:57:50,447:INFO: Experiment - model version: cnn
+2022-07-19 23:57:50,447:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:57:50,448:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:57:50,448:INFO: Epoch 1/30
+2022-07-19 23:58:05,185:INFO: Loading the Dataset
+2022-07-19 23:58:05,201:INFO: - done.
+2022-07-19 23:58:06,040:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:58:06,294:INFO: Experiment - model version: cnn
+2022-07-19 23:58:06,294:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:58:06,294:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:58:06,294:INFO: Epoch 1/30
+2022-07-19 23:58:51,671:INFO: Loading the Dataset
+2022-07-19 23:58:51,687:INFO: - done.
+2022-07-19 23:58:52,509:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-19 23:58:52,761:INFO: Experiment - model version: cnn
+2022-07-19 23:58:52,761:INFO: Starting training for 30 epoch(s)
+2022-07-19 23:58:52,761:INFO: First, loading the teacher model and computing its outputs...
+2022-07-19 23:58:52,761:INFO: Epoch 1/30
+2022-07-20 00:00:31,513:INFO: Loading the Dataset
+2022-07-20 00:00:31,530:INFO: - done.
+2022-07-20 00:00:32,366:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:00:32,627:INFO: Experiment - model version: cnn
+2022-07-20 00:00:32,627:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:00:32,627:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:00:32,627:INFO: Epoch 1/30
+2022-07-20 00:00:49,344:INFO: Loading the Dataset
+2022-07-20 00:00:49,360:INFO: - done.
+2022-07-20 00:00:50,201:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:00:50,453:INFO: Experiment - model version: cnn
+2022-07-20 00:00:50,453:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:00:50,453:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:00:50,454:INFO: Epoch 1/30
+2022-07-20 00:01:28,610:INFO: Loading the Dataset
+2022-07-20 00:01:28,626:INFO: - done.
+2022-07-20 00:01:29,452:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:01:29,708:INFO: Experiment - model version: cnn
+2022-07-20 00:01:29,708:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:01:29,708:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:01:29,708:INFO: Epoch 1/30
+2022-07-20 00:01:44,259:INFO: Loading the Dataset
+2022-07-20 00:01:44,277:INFO: - done.
+2022-07-20 00:01:45,122:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:01:45,373:INFO: Experiment - model version: cnn
+2022-07-20 00:01:45,373:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:01:45,373:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:01:45,373:INFO: Epoch 1/30
+2022-07-20 00:02:08,296:INFO: Loading the Dataset
+2022-07-20 00:02:08,312:INFO: - done.
+2022-07-20 00:02:09,155:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:02:09,408:INFO: Experiment - model version: cnn
+2022-07-20 00:02:09,408:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:02:09,408:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:02:09,408:INFO: Epoch 1/30
+2022-07-20 00:02:44,972:INFO: Loading the Dataset
+2022-07-20 00:02:44,988:INFO: - done.
+2022-07-20 00:02:45,835:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:02:46,087:INFO: Experiment - model version: cnn
+2022-07-20 00:02:46,087:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:02:46,087:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:02:46,088:INFO: Epoch 1/30
+2022-07-20 00:03:09,227:INFO: Loading the Dataset
+2022-07-20 00:03:09,243:INFO: - done.
+2022-07-20 00:03:10,096:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:03:10,351:INFO: Experiment - model version: cnn
+2022-07-20 00:03:10,351:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:03:10,351:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:03:10,352:INFO: Epoch 1/30
+2022-07-20 00:03:25,579:INFO: Loading the Dataset
+2022-07-20 00:03:25,595:INFO: - done.
+2022-07-20 00:03:26,432:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:03:26,686:INFO: Experiment - model version: cnn
+2022-07-20 00:03:26,686:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:03:26,686:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:03:26,687:INFO: Epoch 1/30
+2022-07-20 00:03:46,528:INFO: Loading the Dataset
+2022-07-20 00:03:46,545:INFO: - done.
+2022-07-20 00:03:47,375:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:03:47,628:INFO: Experiment - model version: cnn
+2022-07-20 00:03:47,628:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:03:47,628:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:03:47,628:INFO: Epoch 1/30
+2022-07-20 00:04:06,832:INFO: Loading the Dataset
+2022-07-20 00:04:06,848:INFO: - done.
+2022-07-20 00:04:07,688:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:04:07,943:INFO: Experiment - model version: cnn
+2022-07-20 00:04:07,943:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:04:07,943:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:04:07,943:INFO: Epoch 1/30
+2022-07-20 00:05:19,312:INFO: Loading the Dataset
+2022-07-20 00:05:19,328:INFO: - done.
+2022-07-20 00:05:20,151:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:05:20,407:INFO: Experiment - model version: cnn
+2022-07-20 00:05:20,407:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:05:20,407:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:05:20,407:INFO: Epoch 1/30
+2022-07-20 00:07:23,253:INFO: Loading the Dataset
+2022-07-20 00:07:23,269:INFO: - done.
+2022-07-20 00:07:24,084:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:07:24,339:INFO: Experiment - model version: cnn
+2022-07-20 00:07:24,339:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:07:24,339:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:07:24,340:INFO: Epoch 1/30
+2022-07-20 00:08:10,235:INFO: Loading the Dataset
+2022-07-20 00:08:10,251:INFO: - done.
+2022-07-20 00:08:11,073:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:08:11,327:INFO: Experiment - model version: cnn
+2022-07-20 00:08:11,328:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:08:11,328:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:08:11,328:INFO: Epoch 1/30
+2022-07-20 00:08:42,636:INFO: Loading the Dataset
+2022-07-20 00:08:42,652:INFO: - done.
+2022-07-20 00:08:43,504:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:08:43,755:INFO: Experiment - model version: cnn
+2022-07-20 00:08:43,756:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:08:43,756:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:08:43,756:INFO: Epoch 1/30
+2022-07-20 00:09:02,879:INFO: Loading the Dataset
+2022-07-20 00:09:02,894:INFO: - done.
+2022-07-20 00:09:03,728:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:09:03,983:INFO: Experiment - model version: cnn
+2022-07-20 00:09:03,983:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:09:03,983:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:09:03,983:INFO: Epoch 1/30
+2022-07-20 00:10:09,290:INFO: Loading the Dataset
+2022-07-20 00:10:09,306:INFO: - done.
+2022-07-20 00:10:10,128:INFO: Loading pretrained weights from url (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b4_ns-d6313a46.pth)
+2022-07-20 00:10:10,381:INFO: Experiment - model version: cnn
+2022-07-20 00:10:10,381:INFO: Starting training for 30 epoch(s)
+2022-07-20 00:10:10,381:INFO: First, loading the teacher model and computing its outputs...
+2022-07-20 00:10:10,381:INFO: Epoch 1/30

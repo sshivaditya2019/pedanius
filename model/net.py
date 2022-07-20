@@ -26,13 +26,15 @@ class Net(nn.Module):
         self.bn2 = nn.BatchNorm2d(self.num_channels*2)
         self.conv3 = nn.Conv2d(self.num_channels*2, self.num_channels*4, 3, stride=1, padding=1)
         self.bn3 = nn.BatchNorm2d(self.num_channels*4)
-        #self.conv4 = nn.Conv2d(self.num_channels*2, self.num_channels, 3, stride=1, padding=1)
-        #self.bn4 = nn.BatchNorm2d(self.num_channels*4)
+        self.conv4 = nn.Conv2d(self.num_channels*4, self.num_channels*1, 3, stride=1, padding=1)
+        self.bn4 = nn.BatchNorm2d(self.num_channels)
         self.fc1 = nn.Linear(4*4*self.num_channels*4, self.num_channels*4)
         self.fcbn1 = nn.BatchNorm1d(self.num_channels*4)
-        self.fc2 = nn.Linear(self.num_channels, self.num_channels)    
+        self.fc2 = nn.Linear(self.num_channels*4, self.num_channels)    
         self.fcbn2 = nn.BatchNorm1d(self.num_channels)   
-        self.fc3 = nn.Linear(self.num_channels, 5)  
+        self.fc3 = nn.Linear(self.num_channels, self.num_channels)  
+        self.fcbn3 = nn.BatchNorm1d(self.num_channels)  
+        self.fc4 = nn.Linear(self.num_channels, 5) 
         self.dropout_rate = params.dropout_rate
 
     def forward(self, s):
@@ -47,23 +49,34 @@ class Net(nn.Module):
         #                                                  -> batch_size x 3 x 32 x 32
         # we apply the convolution layers, followed by batch normalisation, maxpool and relu x 3
         s = self.bn1(self.conv1(s))                         # batch_size x num_channels x 32 x 32
+        print(s.shape)
         s = F.relu(F.max_pool2d(s, 2))                      # batch_size x num_channels x 16 x 16
+        print(s.shape)
         s = self.bn2(self.conv2(s))                         # batch_size x num_channels*2 x 16 x 16
+        print(s.shape)
         s = F.relu(F.max_pool2d(s, 2))                      # batch_size x num_channels*2 x 8 x 8
+        print(s.shape)
         s = self.bn3(self.conv3(s))                         # batch_size x num_channels*4 x 8 x 8
-        s = F.relu(F.max_pool2d(s, 2))                      # batch_size x num_channels*4 x 4 x 4
-        #s = F.relu(F.max_pool2d(s,2))
-        #s = self.bn4(self.conv4(s))
+        print(s.shape)
+        s = F.relu(F.max_pool2d(s,2)) 
+        print(s.shape)
+        s = self.bn4(self.conv4(s))                     # batch_size x num_channels*4 x 4 x 4
+        s = F.relu(F.max_pool2d(s,2))
+        print(s.shape)
         # flatten the output for each image
         s = s.view(-1, 4*4*self.num_channels*4)             # batch_size x 4*4*num_channels*4
-
         # apply 2 fully connected layers with dropout
         s = F.dropout(F.relu(self.fcbn1(self.fc1(s))), 
             p=self.dropout_rate, training=self.training)    # batch_size x self.num_channels*4
+        print(s.shape)
         s = F.dropout(F.relu(self.fcbn2(self.fc2(s))), 
             p=self.dropout_rate, training=self.training)
-        s = self.fc3(s)                                     # batch_size x 5
-
+        print(s.shape)
+        s = F.dropout(F.relu(self.fcbn3(self.fc3(s))), 
+            p=self.dropout_rate, training=self.training)
+        print(s.shape)                                    # batch_size x 5
+        s = self.bn4(s)
+        print(s.shape)
         return s
 
 
