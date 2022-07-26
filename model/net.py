@@ -20,21 +20,23 @@ class Net(nn.Module):
         """
         super(Net, self).__init__()
         self.num_channels = params.num_channels
-        self.conv1 = nn.Conv2d(3, self.num_channels, 3, stride=1, padding=1)
-        self.bn1 = nn.BatchNorm2d(self.num_channels)
-        self.conv2 = nn.Conv2d(self.num_channels, self.num_channels*2, 3, stride=1, padding=1)
-        self.bn2 = nn.BatchNorm2d(self.num_channels*2)
-        self.conv3 = nn.Conv2d(self.num_channels*2, self.num_channels*4, 3, stride=1, padding=1)
-        self.bn3 = nn.BatchNorm2d(self.num_channels*4)
-        self.conv4 = nn.Conv2d(self.num_channels*4, self.num_channels*1, 3, stride=1, padding=1)
-        self.bn4 = nn.BatchNorm2d(self.num_channels)
-        self.fc1 = nn.Linear(4*4*self.num_channels*4, self.num_channels*4)
-        self.fcbn1 = nn.BatchNorm1d(self.num_channels*4)
-        self.fc2 = nn.Linear(self.num_channels*4, self.num_channels)    
-        self.fcbn2 = nn.BatchNorm1d(self.num_channels)   
-        self.fc3 = nn.Linear(self.num_channels, self.num_channels)  
-        self.fcbn3 = nn.BatchNorm1d(self.num_channels)  
-        self.fc4 = nn.Linear(self.num_channels, 5) 
+        self.conv1 = nn.Conv2d(3, 16, 3, stride=2, padding=0)
+        self.bn1 = nn.BatchNorm2d(16)
+        self.conv2 = nn.Conv2d(16, 32, 3, stride=2, padding=0)
+        self.bn2 = nn.BatchNorm2d(32)
+        self.conv3 = nn.Conv2d(32, 64, 3, stride=2, padding=0)
+        self.bn3 = nn.BatchNorm2d(64)
+        #self.conv4 = nn.Conv2d(self.num_channels*4, self.num_channels*1, 3, stride=1, padding=1)
+        #self.bn4 = nn.BatchNorm2d(self.num_channels)
+        self.fc1 = nn.Linear(3*3*64, 10)
+        self.dropout = nn.Dropout(0.5)
+        #self.fcbn1 = nn.BatchNorm1d(self.num_channels*4)
+        #self.fc2 = nn.Linear(self.num_channels*4, self.num_channels*2)    
+        #self.fcbn2 = nn.BatchNorm1d(self.num_channels*2)   
+        #self.fc3 = nn.Linear(self.num_channels*2, self.num_channels)  
+        #self.fcbn3 = nn.BatchNorm1d(self.num_channels)  
+        self.fc4 = nn.Linear(10, 5) 
+        self.relu = nn.ReLU()
         self.dropout_rate = params.dropout_rate
 
     def forward(self, s):
@@ -49,34 +51,37 @@ class Net(nn.Module):
         #                                                  -> batch_size x 3 x 32 x 32
         # we apply the convolution layers, followed by batch normalisation, maxpool and relu x 3
         s = self.bn1(self.conv1(s))                         # batch_size x num_channels x 32 x 32
-        print(s.shape)
+        #print(s.shape)
         s = F.relu(F.max_pool2d(s, 2))                      # batch_size x num_channels x 16 x 16
-        print(s.shape)
+        #print(s.shape)
         s = self.bn2(self.conv2(s))                         # batch_size x num_channels*2 x 16 x 16
-        print(s.shape)
+        #print(s.shape)
         s = F.relu(F.max_pool2d(s, 2))                      # batch_size x num_channels*2 x 8 x 8
-        print(s.shape)
+        #print(s.shape)
         s = self.bn3(self.conv3(s))                         # batch_size x num_channels*4 x 8 x 8
-        print(s.shape)
+        #print(s.shape)
         s = F.relu(F.max_pool2d(s,2)) 
-        print(s.shape)
-        s = self.bn4(self.conv4(s))                     # batch_size x num_channels*4 x 4 x 4
-        s = F.relu(F.max_pool2d(s,2))
-        print(s.shape)
+        #print(s.shape)
+        #s = self.bn4(self.conv4(s))                     # batch_size x num_channels*4 x 4 x 4
+        #s = F.relu(F.max_pool2d(s,2))
+        #print(s.shape)
         # flatten the output for each image
-        s = s.view(-1, 4*4*self.num_channels*4)             # batch_size x 4*4*num_channels*4
+        #out = out.view(out.size(0),-1)
+        s = s.view(s.size(0),-1)             # batch_size x 4*4*num_channels*4
         # apply 2 fully connected layers with dropout
-        s = F.dropout(F.relu(self.fcbn1(self.fc1(s))), 
-            p=self.dropout_rate, training=self.training)    # batch_size x self.num_channels*4
-        print(s.shape)
-        s = F.dropout(F.relu(self.fcbn2(self.fc2(s))), 
-            p=self.dropout_rate, training=self.training)
-        print(s.shape)
-        s = F.dropout(F.relu(self.fcbn3(self.fc3(s))), 
-            p=self.dropout_rate, training=self.training)
-        print(s.shape)                                    # batch_size x 5
-        s = self.bn4(s)
-        print(s.shape)
+        #s = F.dropout(F.relu(self.fcbn1(self.fc1(s))), 
+        #    p=self.dropout_rate, training=self.training)    # batch_size x self.num_channels*4
+        #print(s.shape)
+        #s = F.dropout(F.relu(self.fcbn2(self.fc2(s))), 
+        #    p=self.dropout_rate, training=self.training)
+        #print(s.shape)
+        #s = F.dropout(F.relu(self.fcbn3(self.fc3(s))), 
+        #    p=self.dropout_rate, training=self.training)
+        #print(s.shape)                                    # batch_size x 5
+        #s = self.bn4(s)
+        #print(s.shape)
+        s = self.relu(self.fc1(s))
+        s = self.fc4(s)
         return s
 
 
@@ -103,8 +108,8 @@ def loss_fn_kd(outputs, labels, teacher_outputs, params):
     """
     alpha = params.alpha
     T = params.temperature
-    print(outputs.shape)
-    print(teacher_outputs.shape)
+    #print(outputs.shape)
+    #print(teacher_outputs.shape)
     KD_loss = nn.KLDivLoss()(F.log_softmax(outputs/T, dim=1),
                              F.softmax(teacher_outputs/T, dim=1)) * (alpha * T * T) + \
               F.cross_entropy(outputs, labels) * (1. - alpha)

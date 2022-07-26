@@ -60,7 +60,10 @@ def train_kd(model, teacher_model, optimizer, loss_fn_kd, dataloader, metrics, p
                 labels_batch = labels_batch.cpu().data.numpy()
 
                 summary_batch = {metric:metrics[metric](output_batch,labels_batch) for metric in metrics }
-                summary_batch['loss'] = loss.data[0]
+                summary_batch['loss'] = loss.data.item()
+                summ.append(summary_batch)
+                
+            loss_avg.update(loss.data.item())
 
             t.set_postfix(loss='{:05.3f}'.format(loss_avg()))
             t.update()
@@ -169,4 +172,4 @@ if __name__ == '__main__':
     logging.info("Starting training for {} epoch(s)".format(params.num_epochs))
     logging.info("First, loading the teacher model and computing its outputs...")
     train_evaluate_kd(model, teacher_model, train_loader, val_loader, optimizer, loss_fn_kd,
-                            metrics, params, "/home/sshivaditya/Projects/pedanius/saves")
+                            metrics, params, "/home/sshivaditya/Projects/pedanius/saves/cnn/")

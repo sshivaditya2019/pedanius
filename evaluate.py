@@ -11,7 +11,7 @@ import model.net as net
 import model.resnet as resnet
 import model.data_loader as data_loader
 
-
+device = torch.device("cuda:0" if torch.cuda.is_available else "cpu")
 
 def evaluate(model, loss_fn, dataloader, metrics, params):
     """Evaluate the model on `num_steps` batches.
@@ -52,9 +52,11 @@ def evaluate_kd(model, dataloader, metrics, params):
         num_steps: (int) number of batches to train on, each of size params.batch_size
     """
     model.eval()
+    model.to(device)
     summ = []
     for i, (data_batch, labels_batch) in enumerate(dataloader):
-        data_batch, labels_batch = Variable(data_batch), Variable(labels_batch)
+        data_batch = Variable(data_batch.to(device))
+        labels_batch = Variable(labels_batch.to(device))
         output_batch = model(data_batch)
         loss = 0.0 
         output_batch = output_batch.data.cpu().numpy()

@@ -45,6 +45,7 @@ class RunningAverage():
         self.steps += 1
     
     def __call__(self):
+        print(self.total,self.steps)
         return self.total/float(self.steps)
 
 def set_logger(log_path):
