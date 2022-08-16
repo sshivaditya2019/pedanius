@@ -166,7 +166,7 @@ if __name__ == '__main__':
     metrics = net.metrics
 
     teacher_model = CassvaImgClassifier("tf_efficientnet_b4_ns",5,pretrained=True)
-    teacher_model.load_state_dict(torch.load("/home/sshivaditya/Projects/pedanius/saves/CrossEntropy/tf_efficientnet_b4_ns_fold_0_9"))
+    teacher_model.load_state_dict(torch.load("/home/sshivaditya/Projects/pedanius/saves/tf_efficientnet_b4_ns/tf_efficientnet_b4_ns_fold_3_9"))
     teacher_model.eval()
     logging.info("Experiment - model version: {}".format(params.model_version))
     logging.info("Starting training for {} epoch(s)".format(params.num_epochs))

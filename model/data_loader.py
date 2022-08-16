@@ -63,9 +63,9 @@ class CassavaImageDataset(Dataset):
     def __init__(self, annotations_file, img_dir, transform, target_transform=None):
         self.img_labels = pd.read_csv(annotations_file)
         data = pd.read_csv(annotations_file)
-        frames = [data[data.label == 3].sample(frac=0.5,random_state=10) ,data[data.label == 2],data[data.label == 1],data[data.label == 4],data[data.label == 0]]
+        frames = [data[data.label == 2],data[data.label == 1],data[data.label == 4],data[data.label == 0]]
         result = pd.concat(frames)
-        self.img_labels = result
+        #self.img_labels = result
         self.img_dir = img_dir
         self.transform = transform
         self.target_transform = target_transform

@@ -148,15 +148,14 @@ if __name__ == '__main__':
     
     for fold, (trn_idx, val_idx) in enumerate(folds):
         # we'll train fold 0 first
-        if fold > 0:
-            break 
+        
         print('Training with {} started'.format(fold))
         print(len(trn_idx), len(val_idx))
         trains, _ = data_loader.dataset_entire(params)
         device = torch.device(params.device)
         train_loader = trains['train_img']
         val_loader = trains['test_img']
-        model = CassvaImgClassifier(params.model_arch, train.label.nunique(), pretrained=True).to(device)
+        model = CassvaImgClassifier(params.model_arch, 5, pretrained=True).to(device)
         scaler = GradScaler()   
         optimizer = torch.optim.Adam(model.parameters(), lr=params.lr, weight_decay=params.weight_decay)
         #scheduler = torch.optim.lr_scheduler.StepLR(optimizer, gamma=0.1, step_size=params.epochs-1)
@@ -171,6 +170,6 @@ if __name__ == '__main__':
             with torch.no_grad():
                 valid_one_epoch(epoch, model, loss_fn, val_loader, device, scheduler=None, schd_loss_update=False)
 
-            torch.save(model.state_dict(),'{}_fold_{}_{}'.format(params.model_arch, fold, epoch))
+            torch.save(model.state_dict(),'saves/{}/{}_fold_{}_{}'.format(params.model_arch,params.model_arch, fold, epoch))
         del model, optimizer, train_loader, val_loader, scaler, scheduler
         torch.cuda.empty_cache()

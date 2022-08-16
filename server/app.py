@@ -14,6 +14,7 @@ os.path.dirname(os.path.dirname(__file__))
 from model import net
 import utils
 app = Flask(__name__)
+print("App Started")
 imagenet_class_index = json.load(open('/home/sshivaditya/Projects/pedanius/data/label_num_to_disease_map.json'))
 
 class CassvaImgClassifier(nn.Module):
